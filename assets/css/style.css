@@ -1,0 +1,61 @@
+body{
+	background-image: url("../images/background.jpg")
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px white;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+.header{
+	background-color: orange;
+}
+.gems{
+	background-color: white;
+}
+.header, .instructions{
+	width: 50%;
+}
+.instructions{
+	background-color: beige;
+}
+.numberToMatch{
+	float: left;
+	width: 15%;
+	height: 60px;
+	font-size: 30pt;
+	background-color: green;
+}
+.winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+	font-size: 25pt;
+	background-color: lightblue;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+	background-color: darkgreen;
+}
+.crystals{
+	clear: both;
+}
+.crystalImage{
+	height: 100px;
+	width: 60px;
+	margin: 10px;
+}

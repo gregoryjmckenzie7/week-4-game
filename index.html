@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Crystal Collector!</h1>
+	</div>
+	<div class="instructions">
+		<h3>These are the rules of the game.</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.</li>
+			<li>There are four crystals below.</li>
+			<li>Each crystal will be assigned a random value at the beginning of every game.</li>
+			<li>The value of each crystal is hidden from you until you click it.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+			<span id= "randomNumber"></span>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="crystals">
+		<img src="assets/images/bluecrystal.png" class=crystalImage id="blue">
+		<img src="assets/images/greencrystal.png" class=crystalImage id="green">
+		<img src="assets/images/redcrystal.png" class=crystalImage id= "red">
+		<img src="assets/images/yellowcrystal.png" class=crystalImage id= "yellow">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
